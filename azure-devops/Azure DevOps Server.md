@@ -1,3 +1,7 @@
+
+
+![Azure DevOps Services Vs Azure DevOps Server](../assets/azure-devops-services-vs-server.png)
+
 Differences Between Azure DevOps Services and Azure DevOps Server
 The differences between these two Azure DevOps offerings can be grouped into the following:
 
