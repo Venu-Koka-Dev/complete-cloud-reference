@@ -1,8 +1,36 @@
 # Index
-1. AZ-900: Microsoft Azure Fundamentals
+1. List of Certifications
+2. AZ-900: Microsoft Azure Fundamentals
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# I. AZ-900: Microsoft Azure Fundamentals
+# I. List of Certifications
+I. Azure Fundamentals 
+    1. Microsoft Certified: Azure Fundamentals  - ExamAZ-900
+    2. Microsoft Certified: Azure Data Fundamentals -  ExamDP-900
+    3. Microsoft Certified: Azure AI Fundamentals -  ExamAI-900
+    4. Microsoft Certified: Security, Compliance, and Identity Fundamentals - ExamAI-900    
+    5. Microsoft 365 Certified: Fundamentals -  ExamMS-900
+    6. Microsoft Certified: Power Platform Fundamentals  -  ExamPL-900
+    7. Microsoft Certified: Dynamics 365 Fundamentals(CRM) -  ExamMB-910
+    8. Microsoft Certified: Dynamics 365 Fundamentals(ERP) -  ExamMB-920![image](https://github.com/user-attachments/assets/ca61575a-6ca5-40ed-a749-41143e32b7dc)
+
+II. Azure Associate
+    1. Microsoft Certified : Azure Administrator  - ExamAZ-104
+    2. Microsoft Certified : Azure Developer - ExamAZ-204
+    3. Microsoft Certified : Azure Security - ExamAZ-500
+    4. Microsoft Certified : Data Scientist  - ExamDP-100
+    5. Microsoft Certified : Data Engineer - ExamDP-203
+    6. Microsoft Certified : Data Analyst - ExamDA-100
+    7. Microsoft Certified : AI Engineer - ExamAI-102![image](https://github.com/user-attachments/assets/0fe2da75-fc44-41d4-be02-3c76175ca8ec)
+
+III. Azure Expert
+    1. Microsoft Certified : Solutions Architect Expert - ExamAZ-305
+    2. Microsoft Certified : DevOps Engineer Expert - ExamAZ-400
+
+IV. Azure Specialty
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# II. AZ-900: Microsoft Azure Fundamentals
 1. What's in it ? Domains, knowledge areas
  - Entry level cloud certification for Microsoft Azure
  - Should have foundational knowledge of cloud services and how those services are provided with Microsoft Azure
