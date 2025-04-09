@@ -3,9 +3,48 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # I. AZ-900: Microsoft Azure Fundamentals
- - What will be assessed in this exam :
-    1. Describe cloud concepts
-    2. Describe Azure architecture and services
-    3. Describe Azure management and governance
+1. What's in it ? Domains, knowledge areas
+ - Entry level cloud certification for Microsoft Azure
+ - Should have foundational knowledge of cloud services and how those services are provided with Microsoft Azure
+ - Fundamentals of Cloud computing
+ - Azure Core services
+ - Hands on experience working with Azure Portal
+ - Billing
+ - Tools to secure, govern, and administer Azure
+ - How Azure supports security, privacy, compliance, and trust
+ - Business centric concepts 
+ - Knowledge Domain areas or Prime objectives :
+    a. Describe Cloud concepts (25-30%)
+    b. Describe Azure architecture and services (35-40%)
+    c. Describe Azure management and governance (30-35%)
+
+2. Who should learn ?
+ - Non-tech people : Sales & management people to help inform VPs, CEOs to adopt Cloud Solutions
+ - Technical people like developers and administrators
+
+3. Exam scoring 
+ - Passing Score : 700/1000 but aim for atleast 75%
+ - Azure uses Scaled Scoring :  our actual raw score may not be the final score
+
+4. Questions
+ - 40-60 Questions in 60 mins (1 hr) : 12 to 18 can go wrong
+ - Languages : Multiple 
+ - Seat time : 90 mins ( 60 mins exam time + extra work like reading instructions & feedback)
+ - Format 
+    a. Multiple choice
+    b. Multiple answers
+    c. Drag & Drop
+    d. Hot Area - couple of drop downs where we have to answer two things at once
+    e. Sentence completion
+    f. Matching - match left side to right side
+
+5. Test centres
+ - Pearson VUE : in person test center or online proctored exam 
+ - PSI
+
+6. Validity 
+ - is it 24 months or life time
+
+7. Retirement date : none  ![image](https://github.com/user-attachments/assets/04e58071-ba8f-4d59-b4ae-e0d4a8523d94)
        
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
