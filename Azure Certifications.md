@@ -46,5 +46,17 @@
  - is it 24 months or life time
 
 7. Retirement date : none  ![image](https://github.com/user-attachments/assets/04e58071-ba8f-4d59-b4ae-e0d4a8523d94)
+
+8. Resources 
+ - Exam guide  :   https://learn.microsoft.com/en-gb/certifications/exams/az-900
+ - Study guide :   https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900
+ - Free sometimes when we attend a Microsoft Azure Virtual Training Day on select dates @ microsoft.com
+ - Microsoft Learn provides a temporary Azure portal environment called the sandbox in the learning path series
+ - The first time you activate a sandbox and accept the terms, your Microsoft account is associated with a new Azure directory named Microsoft Learn Sandbox
+ - You're also added to a special subscription named Concierge Subscription.
+ - For practice exams : 
+     a. Microsoft Learn page of the Certification :  we can find an Official practice test
+     b. Third party : exampro.co
+ - Tech Blackboard dumps![image](https://github.com/user-attachments/assets/caa4dba0-19dc-4ebc-bd8b-59378f9d4e18)
        
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
