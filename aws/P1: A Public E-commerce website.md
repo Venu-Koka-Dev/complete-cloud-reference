@@ -10,6 +10,9 @@
  - Migrating the Web application from On-prem to AWS Platform: just plain simple lift-and-shift strategy
 ![E-commerce web application on On premises Vs AWS](../assets/ecomm-onprem-aws.png)
 
+ - We can use:
+    a. VNets & subnets to separate systems with different security levels from each other i.e. by using access-control lists, she can control ingoing and outgoing traffic for each subnet
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Strategy 2: Improvising the architecture on AWS
 ![Full fledged architecture for E-commerce web application on AWS](../assets/full-ecomm-aws.png)
