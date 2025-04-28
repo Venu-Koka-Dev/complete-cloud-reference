@@ -2,7 +2,7 @@
 1. F
 2. F
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# I. An Enterprise intertal portal
+# I. An Enterprise internal portal
  - A Web application for employees of an organization
  - On-prem local data center is connected to AWS private network using VPN connection
  - Technique to connect the local data center with a private network running remotely on AWS to enable clients to access the Java EE server
