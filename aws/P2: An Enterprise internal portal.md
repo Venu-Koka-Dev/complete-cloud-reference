@@ -18,8 +18,9 @@
  - High availability in backend service:
     a. We can use virtual machines acting as web servers which aren’t highly available by default, but we can launch multiple virtual machines in different data centers to achieve high availability
     b. A load balancer checks the health of the web servers and forwards requests to healthy machines
- - High avsailability in database layer:
+ - High availability in database layer:
     a. The database service is offered with replication and fail-over handling i.e. in case the primary database instance fails, the standby database is promoted as the new primary database automatically
+   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Strategy 2: Setting up a dedicated network connection to reduce network costs and increase network throughput in the future
 
