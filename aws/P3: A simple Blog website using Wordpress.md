@@ -1,6 +1,7 @@
 # Index
 1. What is Wordpress ?
 2. Architecture of a typical simple website developed using Wordpress
+3. F
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # I. What is Wordpress ?
  - WordPress is a content management system (CMS)
@@ -45,9 +46,20 @@
 6. Hosting Environment
     a. Runs on a LAMP stack (Linux, Apache, MySQL, PHP), but works with many other configurations like LEMP (Nginx instead of Apache)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# III. 
+# III. Migration strategies to AWS Cloud 
+1. Lift & Shift strategy
+    - Simple & quick: using EC2 instances & DB server
+    - Not cost-effective & not performant
 
+2. Optimal utilization of features that AWS has to offer
+    - Using various services of AWS
+       a. Elastic Compute Cloud (EC2)
+       b. Elastic Load Balancing (ELB)
+       c. Relational Database Service (RDS) for MySQL
+       d. Elastic File System (EFS)
+       e. Security groups
 
+![AWS MVC Wordpress Architecture](../assets/aws-mvc-wordpress-architecture.png)
 
 
 
