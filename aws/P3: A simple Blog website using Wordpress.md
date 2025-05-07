@@ -52,12 +52,12 @@
     - Not cost-effective & not performant
 
 2. Optimal utilization of features that AWS has to offer
-    - Using various services of AWS
-       a. Elastic Compute Cloud (EC2)
-       b. Elastic Load Balancing (ELB)
-       c. Relational Database Service (RDS) for MySQL
-       d. Elastic File System (EFS)
-       e. Security groups
+    - Using various services of AWS      
+       a. Elastic Compute Cloud (EC2)                   - to create a Linux virtual machine with an optimized distribution called Amazon Linux to install Apache, PHP, and WordPress
+       b. Elastic Load Balancing (ELB)                  - using a type of Application Load Balancer (ALB), which operates on layer 7 (HTTP and HTTPS) & distributes traffic to a bunch of virtual machines and is highly available by default
+       c. Relational Database Service (RDS) for MySQL   - we choose the database type & size (storage, CPU, RAM), and RDS takes over operating tasks like creating backups and installing patches and updates
+       d. Elastic File System (EFS)                     - provides a scalable, highly available, and durable network filesystem using the NFSv4.1 protocol
+       e. Security groups                               - a firewall service to control incoming and outgoing traffic to your virtual machine, your database, or your load balancer
 
 ![AWS MVC Wordpress Architecture](../assets/aws-mvc-wordpress-architecture.png)
 
