@@ -1,7 +1,9 @@
 # Index
 1. What is Wordpress ?
 2. Architecture of a typical simple website developed using Wordpress
-3. F
+3. Migration strategies to AWS Cloud
+4. Deploying & deleting using AWS CloudFormation
+5. Deploying manually 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # I. What is Wordpress ?
  - WordPress is a content management system (CMS)
@@ -53,19 +55,38 @@
 
 2. Optimal utilization of features that AWS has to offer
     - Using various services of AWS      
-       a. Elastic Compute Cloud (EC2)                   - to create a Linux virtual machine with an optimized distribution called Amazon Linux to install Apache, PHP, and WordPress
-       b. Elastic Load Balancing (ELB)                  - using a type of Application Load Balancer (ALB), which operates on layer 7 (HTTP and HTTPS) & distributes traffic to a bunch of virtual machines and is highly available by default
-       c. Relational Database Service (RDS) for MySQL   - we choose the database type & size (storage, CPU, RAM), and RDS takes over operating tasks like creating backups and installing patches and updates
-       d. Elastic File System (EFS)                     - provides a scalable, highly available, and durable network filesystem using the NFSv4.1 protocol
-       e. Security groups                               - a firewall service to control incoming and outgoing traffic to your virtual machine, your database, or your load balancer
+       a. Elastic Compute Cloud (EC2)                   - IaaS service to create a Linux virtual machine with an optimized distribution called Amazon Linux to install Apache, PHP, and WordPress
+       b. Elastic Load Balancing (ELB)                  - IaaS service using a type of Application Load Balancer (ALB), which operates on layer 7 (HTTP and HTTPS) & distributes traffic to a bunch of virtual machines and is highly available by default
+       c. Relational Database Service (RDS) for MySQL   - PaaS service using which we choose the database type & size (storage, CPU, RAM), and RDS takes over operating tasks like creating backups and installing patches and updates
+       d. Elastic File System (EFS)                     - PaaS service to provides a scalable, highly available, and durable network filesystem using the NFSv4.1 protocol
+       e. Security groups                               - IaaS service a firewall service to control incoming and outgoing traffic to your virtual machine, your database, or your load balancer
+       f. AWS CloudFormation                            - an IaC service 
 
 ![AWS MVC Wordpress Architecture](../assets/aws-mvc-wordpress-architecture.png)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# IV. Deploying & deleting using AWS CloudFormation
+ - AWS CloudFormation is a tool provided by AWS for free
+ - Creating a cloud infrastructure for WordPress and any other application can be fully automated.
+
+In AWS management console -> Search: CloudFormation -> Create Stack 
+-> Select: Choose an existing template -> Template source: Amazon S3 URL
+-> Amazon S3 URL: https://s3.amazonaws.com/awsinaction-code3/chapter02/template.yaml
+-> Next
+-> Stack name: Wp-blog-app -> WordpressAdminPassword: Admin12wp
+-> Add Tag: Purpose: Learning 
+-> Next
+-> Create Stack
+-> After completion: Click on URL to open the Wordpress Website
 
 
+(Optional) Deleting a deployment
+In AWS management console -> Search: CloudFormation -> Select the Stack name: Wp-blog-app -> Delete 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# V. Deploying manually 
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
