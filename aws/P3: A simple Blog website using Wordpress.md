@@ -65,6 +65,7 @@
 
 ![AWS MVC Wordpress Architecture](../assets/aws-mvc-wordpress-architecture.png)
 
+![Hight level Architecture of a typical Worpress Website](../assets/high-level-architecture-wordpress-website.png)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # IV. Deploying & deleting using AWS CloudFormation
  - AWS CloudFormation is a tool provided by AWS for free
@@ -87,7 +88,13 @@ In AWS management console -> Search: CloudFormation -> Select the Stack name: Wp
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # V. Deploying manually 
-
+ - Add all resources one by one manually either through GUI or AWS CLI commands
+   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# VI. Estimate cost using the AWS Pricing Calculator
+ - Open AWS Pricing calculator
+ - For this project: https://calculator.aws/#/estimate
+    (or) https://github.com/AWSinAction/code3/blob/main/chapter02/README.md
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # template.yaml
 
