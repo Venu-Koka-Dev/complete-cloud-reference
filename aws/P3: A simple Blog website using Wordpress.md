@@ -3,7 +3,8 @@
 2. Architecture of a typical simple website developed using Wordpress
 3. Migration strategies to AWS Cloud
 4. Deploying & deleting using AWS CloudFormation
-5. Deploying manually 
+5. Deploying manually
+6. Estimate cost using the AWS Pricing Calculator
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # I. What is Wordpress ?
  - WordPress is a content management system (CMS)
